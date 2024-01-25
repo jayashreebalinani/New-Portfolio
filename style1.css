@@ -1,9 +1,5 @@
 
-*{
-    margin: 0px;
-    padding: 0px;
-    
-  }
+
 
 .navbar{
     height: 80px;
@@ -203,6 +199,10 @@
         width: 40%;
       }
        */
+       body{
+        padding: 0 !important;
+        margin: 0 !important;
+       }
        #h1{
         margin-left: 50px;
         font-size: 30px;
