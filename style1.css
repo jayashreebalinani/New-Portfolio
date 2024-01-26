@@ -396,7 +396,7 @@
   .slide-up-container {
     border: 2px solid rgb(255, 255, 255);
     width: 35%;
-    height: 450px; /* Set the height of the container */
+    height: 550px; /* Set the height of the container */
     overflow: hidden;
     position: relative;
   }
