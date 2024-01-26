@@ -190,6 +190,8 @@
         .div2{
           height: 140px;
           margin-top: 10px;
+          margin-left: auto !important;
+          margin-right: auto !important;
         
           width: 350px;
         }
