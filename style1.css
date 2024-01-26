@@ -7,9 +7,7 @@
     background-color: #211e3b;
     position: sticky;
 }
-.body{
-    background-color: #ffffff;
-}
+
 #nav-link{
     color: #bbbdd3;
     font-weight: 500;
@@ -39,8 +37,12 @@
     width: 100%;
     visibility: visible;
 }
-
-
+.social-links1 a{
+  text-decoration: none;
+}
+.card a{
+  text-decoration: none;
+}
 .div1{
     height: 400px;
    
@@ -137,69 +139,11 @@
   }
 
   @media only screen and (max-width:540px){
-    /* #h1{
-
-        margin-left: 50px;
-        font-size: 30px;
-        margin-top: 20px;
-        color: white;
-      }
-      .overview{
-        display: grid;
-        margin-top: 40px;
-        background-color: #211e3b;
-        
-       
-      }
-      .animated-text span::after{
-        content: "";
     
-        width: calc(100% + 10px);
-        height: 100%;
-        background-color:  #211e3b;
-        border-left: 2px solid #ff7f50;
-        right: -8px;
-        animation: cursor .8s infinite, typing 25s steps(10) infinite;
-      }
-      .img1{
-       
-        height: 250px;
-        width: 250px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top:40px;
-      }
-      .animated-text{
-        font-size: 24px;
-        font-weight: 600;
-        min-width: 280px;
-      }
-      .animated-text span{
-        position: absolute;
-      }
-      .social-links1{
-        margin-top: 100px; 
-      }
-      .div1{
-        height: 250px;
-       
-        margin-top: 40px;
-        width: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-      }
-      .div2{
-        height: 170px;
-        margin-top: 80px;
-        margin-left: 125px;
-      
-        width: 40%;
-      }
-       */
-       body{
+       .body{
+        width: 100% !important;
+        height: 100% !important;
+        overflow-x: hidden !important;
         padding: 0 !important;
         margin: 0 !important;
        }
@@ -229,7 +173,7 @@
          background-color: #211e3b;
           margin-top: 40px;
           width: fit-content;
-          width: 100%;
+          width: 100% !important;
           display: block;
           margin-left: auto;
           margin-right: auto;
@@ -294,6 +238,7 @@
         }
       .edu1{
         width: fit-content !important;
+        border-left: 1px white !important;
       }
       .edu{
         width: fit-content !important;
@@ -306,9 +251,21 @@
       .details{
         padding: 0px !important;
       }
+      .res{
+        height: 30px !important;
+        width: 120px !important;
+      }
+      .scrolling-section{
+        padding: 0px !important;
+      }
+      #align-card{
+        margin:5px 5px 5px 5px !important ;
+      }
 
   }
-  
+  #align-card{
+  margin:10px 0px 15px 50px;
+  }
   /* Media query for screens between 601 and 900 pixels */
   @media screen and (min-width: 601px) and (max-width: 900px) {
     /* #h1{
@@ -491,14 +448,15 @@ padding-left: 15px;
 .edu{
   height: 400px;
   width: 400px;
-  border: 1px solid rgb(255, 255, 255);
-  padding:0px 10px;
+  
+  padding:0px 5px;
   
 }
 .edu1{
-  height: 300px;
+  height: 350px;
   width: 400px;
-  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  border-left: 1px solid rgb(168, 168, 168);
   padding:0px 10px;
   
 }
@@ -553,6 +511,7 @@ border: 2px solid black;
 .card{
   transition: all 0.3s;
   border: 3px solid #55257a;
+  
 }
 .card:hover{
   transform: scale(1.05);
@@ -566,6 +525,7 @@ border: 2px solid black;
   width:40px;
   justify-content: center;
   transition: all 0.3s;
+  cursor: pointer;
 }
 .code:hover{
   transform: scale(1.15);
