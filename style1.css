@@ -443,7 +443,7 @@
   
   }
 .both{
-  display: flex;
+  display: flex !important;
   
 }
 .smooth-text span{
