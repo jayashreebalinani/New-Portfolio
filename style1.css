@@ -172,6 +172,14 @@
           border: 2px aqua;
           
         }
+      .smooth-text {
+          animation: smoothText 3s 1;
+         border: 1px solid rgb(255, 255, 255);
+         width: 65%;
+         padding: 0px 0px 0px 0px !important;
+         font-weight: 550;
+         
+         }
         .social-links1{
           
           display: flex;
