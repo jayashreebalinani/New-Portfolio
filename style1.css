@@ -671,3 +671,19 @@ border: 2px solid black;
   fill: #fbd9ad;
   
 }
+.sym_main{
+  border: 1px solid rgb(255, 255, 255);
+  
+  display: flex;
+}
+.sym{
+  
+  text-align: center;
+  height: 90px;
+  justify-content: center;
+  width: 90px;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  margin-left: 30px;
+  display: grid;
+}
