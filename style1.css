@@ -164,14 +164,13 @@
           height: 200px;
           width: 250px;
           display: block;
-          margin-left: auto;
-          margin-right: auto;
+        
           margin-top:10px;
         }
         .div1{
           height: 250px;
          background-color: #211e3b;
-          margin-top: 40px;
+          margin-top: 45px;
           width: fit-content;
           width: 100% !important;
           display: block;
@@ -180,6 +179,14 @@
           border: 2px aqua;
           
         }
+        .smooth-text {
+          animation: smoothText 3s 1;
+         border: 1px solid rgb(255, 255, 255);
+         width: 65%;
+         padding: 0px 0px 0px 0px !important;
+         font-weight: 550;
+         
+         }
         .social-links1{
           
           display: flex;
@@ -192,7 +199,6 @@
           margin-top: 10px;
           margin-left: auto !important;
           margin-right: auto !important;
-        
           width: 350px;
         }
         .img1{
@@ -200,8 +206,7 @@
           height: 250px;
           width: 250px;
           display: block;
-          margin-left: auto;
-          margin-right: auto;
+         
           margin-top:10px;
         }
         
@@ -239,7 +244,8 @@
           display: grid !important;
         }
       .edu1{
-        width: fit-content !important;
+        margin-top: 50px;
+        width: 100% !important;
         border-left: 1px white !important;
       }
       .edu{
@@ -451,8 +457,24 @@ padding-left: 15px;
   height: 400px;
   width: 400px;
   
-  padding:0px 5px;
   
+  
+}
+.sym_main{
+  border: 1px solid rgb(255, 255, 255);
+  
+  display: flex;
+}
+.sym{
+  
+  text-align: center;
+  height: 90px;
+  justify-content: center;
+  width: 90px;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  margin-left: 30px;
+  display: grid;
 }
 .edu1{
   height: 350px;
