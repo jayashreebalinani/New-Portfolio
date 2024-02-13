@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (window.scrollY > 50) {
       navbar.style.backgroundColor = "black"; 
     } else {
-      navbar.style.backgroundColor = "transparent"; // Reset to transparent background
+      navbar.style.backgroundColor = "transparent"; 
     }
   });
 });
