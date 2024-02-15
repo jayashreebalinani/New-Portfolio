@@ -1,6 +1,6 @@
 
 //       } else {
-//         navbar.classList.remove("scrolled");
+//         navbar.classList.remove;
 //       }
 //     });
 //   });
