@@ -1,6 +1,5 @@
 
 
-//         navbar.classList.remove;
 
 //     });
 //   });
