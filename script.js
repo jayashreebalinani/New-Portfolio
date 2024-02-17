@@ -1,7 +1,7 @@
 
 
 //         navbar.classList.remove;
-//       }
+
 //     });
 //   });
 document.addEventListener("DOMContentLoaded", function() {
