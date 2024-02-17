@@ -1,5 +1,5 @@
 
-//       } else {
+
 //         navbar.classList.remove;
 //       }
 //     });
