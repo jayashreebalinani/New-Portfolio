@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-
 var typed = new Typed(".auto-type",{
   strings:["Frontend Developer","Backend developer"],
   typeSpeed:150,
