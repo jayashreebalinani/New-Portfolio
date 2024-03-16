@@ -305,31 +305,6 @@
 
 
   
-    /* content: "|";
-    position: absolute;
-    height: 100%;
-    width: ;
-    right: 0;
-    color: rgb(29, 31, 31);
-    background-color: white;
-    width: 100%;
-    animation: typing 4s steps(15) alternate infinite,
-                      line 1s infinite;
-  
-  }
-  
-  @keyframes typing{
-    to{
-      width: 0%;
-    }
-  }
-  
-  @keyframes line{
-    50%{
-      color: transparent;
-    }
-  } */
-  
   
   
 #bg{
