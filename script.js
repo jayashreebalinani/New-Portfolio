@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener("scroll", function() {
     var navbar = document.getElementById("navbar");
-
+//this is to change scroll bar color while it scrolls
     if (window.scrollY > 50) {
       navbar.style.backgroundColor = "black"; 
     } else {
