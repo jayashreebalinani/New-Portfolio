@@ -96,7 +96,7 @@
   .animated-text span::before{
     content: "Full stack web developer";
     color: #cb70ff;
-    animation: words 20s infinite;
+    animation: words 24s infinite;
   }
   
   .animated-text span::after{
