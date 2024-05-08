@@ -492,7 +492,7 @@ padding-left: 15px;
   background-color: #296262fe;
 }
 .scrolling-section {
-  height: 600px; /* Adjust the height as needed */
+  height: 600px; /* Adjust the height needed */
   overflow: auto; /* Enable scrolling if content overflows */
   border: 1px solid #ccc;
   padding: 10px;
