@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 });
-
+//the text that style for auto typed
 var typed = new Typed(".auto-type",{
   strings:["Frontend Developer","Backend developer"],
   typeSpeed:150,
