@@ -18,4 +18,3 @@ var typed = new Typed(".auto-type",{
   loop:true
 })
 
-
